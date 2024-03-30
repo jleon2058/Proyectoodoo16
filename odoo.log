@@ -1,0 +1,743 @@
+2023-07-10 00:05:32,171 18276 INFO ? odoo: Odoo version 16.0-20230709 
+2023-07-10 00:05:32,171 18276 INFO ? odoo: Using configuration file at C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo.conf 
+2023-07-10 00:05:32,171 18276 INFO ? odoo: addons paths: ['C:\\Users\\Juanleon\\Desktop\\Juan Carlos\\server\\odoo\\addons', 'c:\\users\\juanleon\\desktop\\juan carlos\\sessions\\addons\\16.0', 'c:\\users\\juanleon\\desktop\\juan carlos\\server\\odoo\\addons'] 
+2023-07-10 00:05:32,171 18276 INFO ? odoo: database: openpg@localhost:5432 
+2023-07-10 00:05:40,542 18276 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Users\Juanleon\Desktop\Juan Carlos\thirdparty\wkhtmltopdf.exe 
+2023-07-10 00:05:44,291 18276 WARNING ? py.warnings: C:\Users\Juanleon\Desktop\Juan Carlos\python\lib\site-packages\num2words\lang_AR.py:191: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\modules\module.py", line 439, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2023-07-10 00:05:44,291 18276 WARNING ? py.warnings: C:\Users\Juanleon\Desktop\Juan Carlos\python\lib\site-packages\num2words\lang_AR.py:195: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\modules\module.py", line 439, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2023-07-10 00:05:44,291 18276 WARNING ? py.warnings: C:\Users\Juanleon\Desktop\Juan Carlos\python\lib\site-packages\num2words\lang_AR.py:229: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\modules\module.py", line 439, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2023-07-10 00:05:44,291 18276 WARNING ? py.warnings: C:\Users\Juanleon\Desktop\Juan Carlos\python\lib\site-packages\num2words\lang_AR.py:231: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\modules\module.py", line 439, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2023-07-10 00:05:44,296 18276 WARNING ? py.warnings: C:\Users\Juanleon\Desktop\Juan Carlos\python\lib\site-packages\num2words\lang_AR.py:239: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\modules\module.py", line 439, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2023-07-10 00:05:44,296 18276 WARNING ? py.warnings: C:\Users\Juanleon\Desktop\Juan Carlos\python\lib\site-packages\num2words\lang_AR.py:253: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\modules\module.py", line 439, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2023-07-10 00:05:44,296 18276 WARNING ? py.warnings: C:\Users\Juanleon\Desktop\Juan Carlos\python\lib\site-packages\num2words\lang_AR.py:291: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\modules\module.py", line 439, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2023-07-10 00:05:44,296 18276 WARNING ? py.warnings: C:\Users\Juanleon\Desktop\Juan Carlos\python\lib\site-packages\num2words\lang_AR.py:302: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\modules\module.py", line 439, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2023-07-10 00:05:44,301 18276 WARNING ? py.warnings: C:\Users\Juanleon\Desktop\Juan Carlos\python\lib\site-packages\num2words\lang_AR.py:305: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\modules\module.py", line 439, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2023-07-10 00:05:44,731 18276 INFO ? odoo.service.server: Initiating shutdown 
+2023-07-10 00:05:44,731 18276 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-07-10 00:06:04,436 6516 INFO ? odoo: Odoo version 16.0-20230709 
+2023-07-10 00:06:04,441 6516 INFO ? odoo: Using configuration file at C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo.conf 
+2023-07-10 00:06:04,441 6516 INFO ? odoo: addons paths: ['C:\\Users\\Juanleon\\Desktop\\Juan Carlos\\server\\odoo\\addons', 'c:\\users\\juanleon\\desktop\\juan carlos\\sessions\\addons\\16.0', 'c:\\users\\juanleon\\desktop\\juan carlos\\server\\odoo\\addons'] 
+2023-07-10 00:06:04,441 6516 INFO ? odoo: database: openpg@localhost:5432 
+2023-07-10 00:06:04,602 6516 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Users\Juanleon\Desktop\Juan Carlos\thirdparty\wkhtmltopdf.exe 
+2023-07-10 00:06:04,907 6516 INFO ? odoo.service.server: HTTP service (werkzeug) running on LAPTOP-ATV2E9H3.hitronhub.home:8069 
+2023-07-10 00:06:08,966 6516 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-10 00:06:13,049 6516 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-10 00:07:14,056 6516 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-10 00:07:14,081 6516 INFO ? werkzeug: 127.0.0.1 - - [10/Jul/2023 00:07:14] "GET / HTTP/1.1" 303 - 0 0.000 4.085
+2023-07-10 00:07:18,160 6516 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-10 00:07:22,239 6516 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-10 00:07:22,243 6516 INFO ? werkzeug: 127.0.0.1 - - [10/Jul/2023 00:07:22] "GET /web HTTP/1.1" 303 - 0 0.000 8.157
+2023-07-10 00:07:26,661 6516 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-10 00:07:32,269 6516 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-10 00:07:32,421 6516 INFO ? werkzeug: 127.0.0.1 - - [10/Jul/2023 00:07:32] "GET /web/database/selector HTTP/1.1" 200 - 0 0.000 9.870
+2023-07-10 00:07:36,841 6516 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-10 00:07:36,841 6516 INFO ? werkzeug: 127.0.0.1 - - [10/Jul/2023 00:07:36] "GET /web/static/src/libs/fontawesome/css/font-awesome.css HTTP/1.1" 200 - 0 0.000 4.074
+2023-07-10 00:07:40,898 6516 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-10 00:07:40,901 6516 INFO ? werkzeug: 127.0.0.1 - - [10/Jul/2023 00:07:40] "GET /web/static/lib/bootstrap/dist/css/bootstrap.css HTTP/1.1" 200 - 0 0.000 8.133
+2023-07-10 00:07:44,991 6516 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-10 00:07:44,993 6516 INFO ? werkzeug: 127.0.0.1 - - [10/Jul/2023 00:07:44] "GET /web/static/lib/jquery/jquery.js HTTP/1.1" 200 - 0 0.000 12.222
+2023-07-10 00:07:49,076 6516 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-10 00:07:49,077 6516 INFO ? werkzeug: 127.0.0.1 - - [10/Jul/2023 00:07:49] "GET /web/static/lib/bootstrap/js/dist/dom/data.js HTTP/1.1" 200 - 0 0.000 11.920
+2023-07-10 00:07:53,151 6516 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-10 00:07:53,155 6516 INFO ? werkzeug: 127.0.0.1 - - [10/Jul/2023 00:07:53] "GET /web/static/lib/bootstrap/js/dist/dom/event-handler.js HTTP/1.1" 200 - 0 0.000 11.932
+2023-07-10 00:07:57,265 6516 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-10 00:07:57,265 6516 INFO ? werkzeug: 127.0.0.1 - - [10/Jul/2023 00:07:57] "GET /web/static/lib/bootstrap/js/dist/dom/manipulator.js HTTP/1.1" 200 - 0 0.000 11.953
+2023-07-10 00:08:01,348 6516 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-10 00:08:01,351 6516 INFO ? werkzeug: 127.0.0.1 - - [10/Jul/2023 00:08:01] "GET /web/static/lib/bootstrap/js/dist/dom/selector-engine.js HTTP/1.1" 200 - 0 0.000 11.958
+2023-07-10 00:08:05,425 6516 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-10 00:08:05,431 6516 INFO ? werkzeug: 127.0.0.1 - - [10/Jul/2023 00:08:05] "GET /web/static/lib/bootstrap/js/dist/base-component.js HTTP/1.1" 200 - 0 0.000 11.953
+2023-07-10 00:08:09,490 6516 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-10 00:08:09,494 6516 INFO ? werkzeug: 127.0.0.1 - - [10/Jul/2023 00:08:09] "GET /web/static/lib/bootstrap/js/dist/modal.js HTTP/1.1" 200 - 0 0.000 11.912
+2023-07-10 00:08:13,561 6516 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-10 00:08:13,562 6516 INFO ? werkzeug: 127.0.0.1 - - [10/Jul/2023 00:08:13] "GET /web/static/src/public/database_manager.js HTTP/1.1" 200 - 0 0.000 11.894
+2023-07-10 00:08:17,621 6516 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-10 00:08:17,621 6516 INFO ? werkzeug: 127.0.0.1 - - [10/Jul/2023 00:08:17] "GET /web/static/img/logo2.png HTTP/1.1" 200 - 0 0.000 7.808
+2023-07-10 00:08:21,693 6516 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-10 00:08:21,693 6516 INFO ? werkzeug: 127.0.0.1 - - [10/Jul/2023 00:08:21] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 0 0.000 7.767
+2023-07-10 00:08:26,081 6516 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-10 00:08:26,083 6516 INFO ? werkzeug: 127.0.0.1 - - [10/Jul/2023 00:08:26] "GET /web/static/img/favicon.ico HTTP/1.1" 200 - 0 0.000 4.062
+2023-07-10 00:12:00,702 6516 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-10 00:12:00,884 6516 INFO None odoo.service.db: Create database `jcodoo_090723`. 
+2023-07-10 00:12:04,951 6516 INFO None odoo.sql_db: Connection to the database failed 
+2023-07-10 00:12:04,951 6516 ERROR None odoo.addons.web.controllers.database: Database creation error. 
+Traceback (most recent call last):
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\addons\web\controllers\database.py", line 81, in create
+    dispatch_rpc('db', 'create_database', [master_pwd, name, bool(post.get('demo')), lang, password, post['login'], country_code, post['phone']])
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\http.py", line 366, in dispatch_rpc
+    return dispatch(method, params)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\db.py", line 480, in dispatch
+    return g[exp_method_name](*params)
+  File "<decorator-gen-17>", line 2, in exp_create_database
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\db.py", line 43, in if_db_mgt_enabled
+    return method(self, *args, **kwargs)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\db.py", line 140, in exp_create_database
+    _create_empty_database(db_name)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\db.py", line 101, in _create_empty_database
+    with closing(db.cursor()) as cr:
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\sql_db.py", line 740, in cursor
+    return Cursor(self.__pool, self.__dbname, self.__dsn)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\sql_db.py", line 267, in __init__
+    self._cnx = pool.borrow(dsn)
+  File "<decorator-gen-2>", line 2, in borrow
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\tools\func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\sql_db.py", line 668, in borrow
+    result = psycopg2.connect(
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\python\lib\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (::1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2023-07-10 00:12:09,071 6516 INFO None odoo.sql_db: Connection to the database failed 
+2023-07-10 00:12:09,173 6516 INFO None werkzeug: 127.0.0.1 - - [10/Jul/2023 00:12:09] "POST /web/database/create HTTP/1.1" 200 - 0 0.000 12.553
+2023-07-10 00:16:04,018 6516 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-10 00:16:04,091 6516 INFO None odoo.service.db: Create database `jcodoo_090723`. 
+2023-07-10 00:16:08,183 6516 INFO None odoo.sql_db: Connection to the database failed 
+2023-07-10 00:16:08,183 6516 ERROR None odoo.addons.web.controllers.database: Database creation error. 
+Traceback (most recent call last):
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\addons\web\controllers\database.py", line 81, in create
+    dispatch_rpc('db', 'create_database', [master_pwd, name, bool(post.get('demo')), lang, password, post['login'], country_code, post['phone']])
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\http.py", line 366, in dispatch_rpc
+    return dispatch(method, params)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\db.py", line 480, in dispatch
+    return g[exp_method_name](*params)
+  File "<decorator-gen-17>", line 2, in exp_create_database
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\db.py", line 43, in if_db_mgt_enabled
+    return method(self, *args, **kwargs)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\db.py", line 140, in exp_create_database
+    _create_empty_database(db_name)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\db.py", line 101, in _create_empty_database
+    with closing(db.cursor()) as cr:
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\sql_db.py", line 740, in cursor
+    return Cursor(self.__pool, self.__dbname, self.__dsn)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\sql_db.py", line 267, in __init__
+    self._cnx = pool.borrow(dsn)
+  File "<decorator-gen-2>", line 2, in borrow
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\tools\func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\sql_db.py", line 668, in borrow
+    result = psycopg2.connect(
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\python\lib\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (::1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2023-07-10 00:16:12,274 6516 INFO None odoo.sql_db: Connection to the database failed 
+2023-07-10 00:16:12,394 6516 INFO None werkzeug: 127.0.0.1 - - [10/Jul/2023 00:16:12] "POST /web/database/create HTTP/1.1" 200 - 0 0.000 12.467
+2023-07-10 01:36:11,947 6516 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-10 01:36:12,003 6516 INFO None odoo.service.db: Create database `jcodoo_090723`. 
+2023-07-10 01:36:12,041 6516 INFO None odoo.sql_db: Connection to the database failed 
+2023-07-10 01:36:12,041 6516 ERROR None odoo.addons.web.controllers.database: Database creation error. 
+Traceback (most recent call last):
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\addons\web\controllers\database.py", line 81, in create
+    dispatch_rpc('db', 'create_database', [master_pwd, name, bool(post.get('demo')), lang, password, post['login'], country_code, post['phone']])
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\http.py", line 366, in dispatch_rpc
+    return dispatch(method, params)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\db.py", line 480, in dispatch
+    return g[exp_method_name](*params)
+  File "<decorator-gen-17>", line 2, in exp_create_database
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\db.py", line 43, in if_db_mgt_enabled
+    return method(self, *args, **kwargs)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\db.py", line 140, in exp_create_database
+    _create_empty_database(db_name)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\db.py", line 101, in _create_empty_database
+    with closing(db.cursor()) as cr:
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\sql_db.py", line 740, in cursor
+    return Cursor(self.__pool, self.__dbname, self.__dsn)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\sql_db.py", line 267, in __init__
+    self._cnx = pool.borrow(dsn)
+  File "<decorator-gen-2>", line 2, in borrow
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\tools\func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\sql_db.py", line 668, in borrow
+    result = psycopg2.connect(
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\python\lib\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError
+2023-07-10 01:36:12,145 6516 INFO None odoo.sql_db: Connection to the database failed 
+2023-07-10 01:36:12,254 6516 INFO None werkzeug: 127.0.0.1 - - [10/Jul/2023 01:36:12] "POST /web/database/create HTTP/1.1" 200 - 0 0.000 0.394
+2023-07-10 01:37:35,089 6516 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-10 01:37:35,094 6516 INFO ? werkzeug: 127.0.0.1 - - [10/Jul/2023 01:37:35] "GET /web/database/create HTTP/1.1" 405 - 0 0.000 0.043
+2023-07-10 01:37:35,159 6516 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-10 01:37:35,160 6516 INFO ? werkzeug: 127.0.0.1 - - [10/Jul/2023 01:37:35] "GET /favicon.ico HTTP/1.1" 404 - 0 0.000 0.042
+2023-07-10 01:37:43,134 6516 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-10 01:37:43,172 6516 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-10 01:37:43,175 6516 INFO ? werkzeug: 127.0.0.1 - - [10/Jul/2023 01:37:43] "GET /web HTTP/1.1" 303 - 0 0.000 0.079
+2023-07-10 01:37:43,220 6516 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-10 01:37:43,274 6516 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-10 01:37:43,384 6516 INFO ? werkzeug: 127.0.0.1 - - [10/Jul/2023 01:37:43] "GET /web/database/selector HTTP/1.1" 200 - 0 0.000 0.205
+2023-07-10 01:38:54,799 6516 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-10 01:38:54,842 6516 INFO None odoo.service.db: Create database `jcodoo090723`. 
+2023-07-10 01:38:54,877 6516 INFO None odoo.sql_db: Connection to the database failed 
+2023-07-10 01:38:54,877 6516 ERROR None odoo.addons.web.controllers.database: Database creation error. 
+Traceback (most recent call last):
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\addons\web\controllers\database.py", line 81, in create
+    dispatch_rpc('db', 'create_database', [master_pwd, name, bool(post.get('demo')), lang, password, post['login'], country_code, post['phone']])
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\http.py", line 366, in dispatch_rpc
+    return dispatch(method, params)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\db.py", line 480, in dispatch
+    return g[exp_method_name](*params)
+  File "<decorator-gen-17>", line 2, in exp_create_database
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\db.py", line 43, in if_db_mgt_enabled
+    return method(self, *args, **kwargs)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\db.py", line 140, in exp_create_database
+    _create_empty_database(db_name)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\db.py", line 101, in _create_empty_database
+    with closing(db.cursor()) as cr:
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\sql_db.py", line 740, in cursor
+    return Cursor(self.__pool, self.__dbname, self.__dsn)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\sql_db.py", line 267, in __init__
+    self._cnx = pool.borrow(dsn)
+  File "<decorator-gen-2>", line 2, in borrow
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\tools\func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\sql_db.py", line 668, in borrow
+    result = psycopg2.connect(
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\python\lib\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError
+2023-07-10 01:38:54,936 6516 INFO None odoo.sql_db: Connection to the database failed 
+2023-07-10 01:38:54,998 6516 INFO None werkzeug: 127.0.0.1 - - [10/Jul/2023 01:38:54] "POST /web/database/create HTTP/1.1" 200 - 0 0.000 0.235
+2023-07-14 00:23:28,695 17772 INFO ? odoo: Odoo version 16.0-20230709 
+2023-07-14 00:23:28,695 17772 INFO ? odoo: Using configuration file at C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo.conf 
+2023-07-14 00:23:28,695 17772 INFO ? odoo: addons paths: ['C:\\Users\\Juanleon\\Desktop\\Juan Carlos\\server\\odoo\\addons', 'c:\\users\\juanleon\\desktop\\juan carlos\\sessions\\addons\\16.0', 'c:\\users\\juanleon\\desktop\\juan carlos\\server\\odoo\\addons', 'c:\\users\\juanleon\\desktop\\juan carlos\\server\\odoo\\modules'] 
+2023-07-14 00:23:28,695 17772 INFO ? odoo: database: openpg@localhost:5432 
+2023-07-14 00:23:30,888 17772 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Users\Juanleon\Desktop\Juan Carlos\thirdparty\wkhtmltopdf.exe 
+2023-07-14 00:23:36,137 17772 INFO ? odoo.service.server: HTTP service (werkzeug) running on LAPTOP-ATV2E9H3:8069 
+2023-07-14 00:23:36,184 17772 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-14 00:23:36,254 17772 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-14 00:24:59,874 17772 INFO ? odoo.service.server: Initiating shutdown 
+2023-07-14 00:24:59,874 17772 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-07-14 00:25:00,328 17772 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 0 connections  
+2023-07-14 00:27:39,303 1204 INFO ? odoo: Odoo version 16.0-20230709 
+2023-07-14 00:27:39,303 1204 INFO ? odoo: Using configuration file at C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo.conf 
+2023-07-14 00:27:39,303 1204 INFO ? odoo: addons paths: ['C:\\Users\\Juanleon\\Desktop\\Juan Carlos\\server\\odoo\\addons', 'c:\\users\\juanleon\\desktop\\juan carlos\\sessions\\addons\\16.0', 'c:\\users\\juanleon\\desktop\\juan carlos\\server\\odoo\\addons', 'c:\\users\\juanleon\\desktop\\juan carlos\\server\\odoo\\modules'] 
+2023-07-14 00:27:39,303 1204 INFO ? odoo: database: openpg@localhost:5432 
+2023-07-14 00:27:39,424 1204 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Users\Juanleon\Desktop\Juan Carlos\thirdparty\wkhtmltopdf.exe 
+2023-07-14 00:27:39,643 1204 INFO ? odoo.service.server: HTTP service (werkzeug) running on LAPTOP-ATV2E9H3:8069 
+2023-07-14 00:27:39,674 1204 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-14 00:27:39,742 1204 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-14 00:37:27,098 6516 INFO ? odoo.service.server: Initiating shutdown 
+2023-07-14 00:37:27,109 6516 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-07-14 00:37:27,327 6516 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 0 connections  
+2023-07-14 00:38:21,759 2228 INFO ? odoo: Odoo version 16.0-20230709 
+2023-07-14 00:38:21,759 2228 INFO ? odoo: Using configuration file at C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo.conf 
+2023-07-14 00:38:21,759 2228 INFO ? odoo: addons paths: ['C:\\Users\\Juanleon\\Desktop\\Juan Carlos\\server\\odoo\\addons', 'c:\\users\\juanleon\\desktop\\juan carlos\\sessions\\addons\\16.0', 'c:\\users\\juanleon\\desktop\\juan carlos\\server\\odoo\\addons', 'c:\\users\\juanleon\\desktop\\juan carlos\\server\\odoo\\modules'] 
+2023-07-14 00:38:21,759 2228 INFO ? odoo: database: openpg@localhost:5432 
+2023-07-14 00:38:22,528 2228 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Users\Juanleon\Desktop\Juan Carlos\thirdparty\wkhtmltopdf.exe 
+2023-07-14 00:39:19,854 7328 INFO ? odoo: Odoo version 16.0-20230709 
+2023-07-14 00:39:19,870 7328 INFO ? odoo: Using configuration file at C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo.conf 
+2023-07-14 00:39:19,870 7328 INFO ? odoo: addons paths: ['C:\\Users\\Juanleon\\Desktop\\Juan Carlos\\server\\odoo\\addons', 'c:\\users\\juanleon\\desktop\\juan carlos\\sessions\\addons\\16.0', 'c:\\users\\juanleon\\desktop\\juan carlos\\server\\odoo\\addons', 'c:\\users\\juanleon\\desktop\\juan carlos\\server\\odoo\\modules'] 
+2023-07-14 00:39:19,870 7328 INFO ? odoo: database: openpg@localhost:5432 
+2023-07-14 00:39:21,948 7328 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Users\Juanleon\Desktop\Juan Carlos\thirdparty\wkhtmltopdf.exe 
+2023-07-14 00:39:22,542 7328 INFO ? odoo.service.server: HTTP service (werkzeug) running on LAPTOP-ATV2E9H3:8069 
+2023-07-14 00:39:22,589 7328 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-14 00:39:22,636 7328 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-14 00:39:32,152 7328 INFO ? odoo.service.server: Initiating shutdown 
+2023-07-14 00:39:32,152 7328 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-07-14 00:39:32,168 7328 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 0 connections  
+2023-07-14 00:40:02,364 6464 INFO ? odoo: Odoo version 16.0-20230709 
+2023-07-14 00:40:02,364 6464 INFO ? odoo: Using configuration file at C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo.conf 
+2023-07-14 00:40:02,364 6464 INFO ? odoo: addons paths: ['C:\\Users\\Juanleon\\Desktop\\Juan Carlos\\server\\odoo\\addons', 'c:\\users\\juanleon\\desktop\\juan carlos\\sessions\\addons\\16.0', 'c:\\users\\juanleon\\desktop\\juan carlos\\server\\odoo\\addons', 'c:\\users\\juanleon\\desktop\\juan carlos\\server\\odoo\\modules'] 
+2023-07-14 00:40:02,380 6464 INFO ? odoo: database: openpg@localhost:5432 
+2023-07-14 00:40:02,859 6464 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Users\Juanleon\Desktop\Juan Carlos\thirdparty\wkhtmltopdf.exe 
+2023-07-14 00:40:10,869 6464 INFO ? odoo.service.server: HTTP service (werkzeug) running on LAPTOP-ATV2E9H3:8069 
+2023-07-14 00:40:10,964 6464 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-14 00:40:11,042 6464 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-14 19:11:28,020 2776 INFO ? odoo: Odoo version 16.0-20230709 
+2023-07-14 19:11:28,020 2776 INFO ? odoo: Using configuration file at C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo.conf 
+2023-07-14 19:11:28,020 2776 INFO ? odoo: addons paths: ['C:\\Users\\Juanleon\\Desktop\\Juan Carlos\\server\\odoo\\addons', 'c:\\users\\juanleon\\desktop\\juan carlos\\sessions\\addons\\16.0', 'c:\\users\\juanleon\\desktop\\juan carlos\\server\\odoo\\addons', 'c:\\users\\juanleon\\desktop\\juan carlos\\server\\odoo\\modules'] 
+2023-07-14 19:11:28,020 2776 INFO ? odoo: database: openpg@localhost:5432 
+2023-07-14 19:11:28,429 2776 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Users\Juanleon\Desktop\Juan Carlos\thirdparty\wkhtmltopdf.exe 
+2023-07-14 19:11:32,004 2776 INFO ? odoo.service.server: HTTP service (werkzeug) running on LAPTOP-ATV2E9H3:8069 
+2023-07-14 19:11:32,044 2776 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-14 19:11:32,109 2776 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-14 23:22:48,875 2776 INFO ? odoo.service.server: Initiating shutdown 
+2023-07-14 23:22:48,875 2776 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-07-14 23:22:48,948 2776 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 0 connections  
+2023-07-14 23:22:57,726 13480 INFO ? odoo: Odoo version 16.0-20230709 
+2023-07-14 23:22:57,726 13480 INFO ? odoo: Using configuration file at C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo.conf 
+2023-07-14 23:22:57,726 13480 INFO ? odoo: addons paths: ['C:\\Users\\Juanleon\\Desktop\\Juan Carlos\\server\\odoo\\addons', 'c:\\users\\juanleon\\desktop\\juan carlos\\sessions\\addons\\16.0', 'c:\\users\\juanleon\\desktop\\juan carlos\\server\\odoo\\addons', 'c:\\users\\juanleon\\desktop\\juan carlos\\server\\odoo\\modules'] 
+2023-07-14 23:22:57,726 13480 INFO ? odoo: database: openpg@localhost:5432 
+2023-07-14 23:22:57,914 13480 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Users\Juanleon\Desktop\Juan Carlos\thirdparty\wkhtmltopdf.exe 
+2023-07-14 23:22:58,303 13480 INFO ? odoo.service.server: HTTP service (werkzeug) running on LAPTOP-ATV2E9H3:8069 
+2023-07-14 23:22:58,352 13480 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-14 23:22:58,427 13480 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-14 23:23:08,443 13480 INFO ? odoo.service.server: Initiating shutdown 
+2023-07-14 23:23:08,443 13480 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-07-14 23:23:08,941 13480 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 0 connections  
+2023-07-14 23:29:43,447 10584 INFO ? odoo: Odoo version 16.0-20230709 
+2023-07-14 23:29:43,447 10584 INFO ? odoo: Using configuration file at C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo.conf 
+2023-07-14 23:29:43,447 10584 INFO ? odoo: addons paths: ['C:\\Users\\Juanleon\\Desktop\\Juan Carlos\\server\\odoo\\addons', 'c:\\users\\juanleon\\desktop\\juan carlos\\sessions\\addons\\16.0', 'c:\\users\\juanleon\\desktop\\juan carlos\\server\\odoo\\addons', 'c:\\users\\juanleon\\desktop\\juan carlos\\server\\odoo\\modules'] 
+2023-07-14 23:29:43,447 10584 INFO ? odoo: database: openpg@localhost:5432 
+2023-07-14 23:29:43,634 10584 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Users\Juanleon\Desktop\Juan Carlos\thirdparty\wkhtmltopdf.exe 
+2023-07-14 23:29:43,919 10584 INFO ? odoo.service.server: HTTP service (werkzeug) running on LAPTOP-ATV2E9H3:8069 
+2023-07-14 23:29:43,961 10584 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-14 23:29:44,026 10584 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-14 23:30:06,364 10584 INFO ? odoo.service.server: Initiating shutdown 
+2023-07-14 23:30:06,364 10584 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-07-14 23:30:06,864 10584 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 0 connections  
+2023-07-14 23:32:38,054 11140 INFO ? odoo: Odoo version 16.0-20230709 
+2023-07-14 23:32:38,054 11140 INFO ? odoo: Using configuration file at C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo.conf 
+2023-07-14 23:32:38,054 11140 INFO ? odoo: addons paths: ['C:\\Users\\Juanleon\\Desktop\\Juan Carlos\\server\\odoo\\addons', 'c:\\users\\juanleon\\desktop\\juan carlos\\sessions\\addons\\16.0', 'c:\\users\\juanleon\\desktop\\juan carlos\\server\\odoo\\addons', 'c:\\users\\juanleon\\desktop\\juan carlos\\server\\odoo\\modules'] 
+2023-07-14 23:32:38,054 11140 INFO ? odoo: database: odoo@localhost:5432 
+2023-07-14 23:32:38,187 11140 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Users\Juanleon\Desktop\Juan Carlos\thirdparty\wkhtmltopdf.exe 
+2023-07-14 23:32:38,472 11140 INFO ? odoo.service.server: HTTP service (werkzeug) running on LAPTOP-ATV2E9H3:8069 
+2023-07-14 23:33:13,466 6464 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-14 23:33:13,513 6464 INFO ? werkzeug: 127.0.0.1 - - [14/Jul/2023 23:33:13] "GET / HTTP/1.1" 303 - 0 0.000 0.173
+2023-07-14 23:33:13,592 6464 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-14 23:33:13,639 6464 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-14 23:33:13,639 6464 INFO ? werkzeug: 127.0.0.1 - - [14/Jul/2023 23:33:13] "GET /web HTTP/1.1" 303 - 0 0.000 0.126
+2023-07-14 23:33:13,712 6464 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-14 23:33:15,017 6464 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-14 23:33:15,196 6464 INFO ? werkzeug: 127.0.0.1 - - [14/Jul/2023 23:33:15] "GET /web/database/selector HTTP/1.1" 200 - 0 0.000 1.540
+2023-07-14 23:33:53,927 11140 INFO ? odoo.service.server: Initiating shutdown 
+2023-07-14 23:33:53,927 11140 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-07-14 23:33:54,036 11140 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 2 connections  
+2023-07-14 23:35:05,544 6464 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-14 23:35:05,544 6464 ERROR ? odoo.addons.web.controllers.database: Database creation error. 
+Traceback (most recent call last):
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\addons\web\controllers\database.py", line 78, in create
+    raise Exception(_('Invalid database name. Only alphanumerical characters, underscore, hyphen and dot are allowed.'))
+Exception: Invalid database name. Only alphanumerical characters, underscore, hyphen and dot are allowed.
+2023-07-14 23:35:05,601 6464 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-14 23:35:05,713 6464 INFO ? werkzeug: 127.0.0.1 - - [14/Jul/2023 23:35:05] "POST /web/database/create HTTP/1.1" 200 - 0 0.000 0.233
+2023-07-14 23:35:53,306 6464 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-14 23:35:53,338 6464 INFO None odoo.service.db: Create database `odoo14_7`. 
+2023-07-14 23:35:53,395 6464 INFO None odoo.sql_db: Connection to the database failed 
+2023-07-14 23:35:53,395 6464 ERROR None odoo.addons.web.controllers.database: Database creation error. 
+Traceback (most recent call last):
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\addons\web\controllers\database.py", line 81, in create
+    dispatch_rpc('db', 'create_database', [master_pwd, name, bool(post.get('demo')), lang, password, post['login'], country_code, post['phone']])
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\http.py", line 366, in dispatch_rpc
+    return dispatch(method, params)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\db.py", line 480, in dispatch
+    return g[exp_method_name](*params)
+  File "<decorator-gen-17>", line 2, in exp_create_database
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\db.py", line 43, in if_db_mgt_enabled
+    return method(self, *args, **kwargs)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\db.py", line 140, in exp_create_database
+    _create_empty_database(db_name)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\db.py", line 101, in _create_empty_database
+    with closing(db.cursor()) as cr:
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\sql_db.py", line 740, in cursor
+    return Cursor(self.__pool, self.__dbname, self.__dsn)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\sql_db.py", line 267, in __init__
+    self._cnx = pool.borrow(dsn)
+  File "<decorator-gen-2>", line 2, in borrow
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\tools\func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\sql_db.py", line 668, in borrow
+    result = psycopg2.connect(
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\python\lib\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError
+2023-07-14 23:35:53,484 6464 INFO None odoo.sql_db: Connection to the database failed 
+2023-07-14 23:35:53,589 6464 INFO None werkzeug: 127.0.0.1 - - [14/Jul/2023 23:35:53] "POST /web/database/create HTTP/1.1" 200 - 0 0.000 0.339
+2023-07-14 23:36:54,159 6464 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-14 23:36:54,215 6464 INFO None odoo.service.db: Create database `odoo`. 
+2023-07-14 23:36:54,272 6464 INFO None odoo.sql_db: Connection to the database failed 
+2023-07-14 23:36:54,272 6464 ERROR None odoo.addons.web.controllers.database: Database creation error. 
+Traceback (most recent call last):
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\addons\web\controllers\database.py", line 81, in create
+    dispatch_rpc('db', 'create_database', [master_pwd, name, bool(post.get('demo')), lang, password, post['login'], country_code, post['phone']])
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\http.py", line 366, in dispatch_rpc
+    return dispatch(method, params)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\db.py", line 480, in dispatch
+    return g[exp_method_name](*params)
+  File "<decorator-gen-17>", line 2, in exp_create_database
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\db.py", line 43, in if_db_mgt_enabled
+    return method(self, *args, **kwargs)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\db.py", line 140, in exp_create_database
+    _create_empty_database(db_name)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\db.py", line 101, in _create_empty_database
+    with closing(db.cursor()) as cr:
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\sql_db.py", line 740, in cursor
+    return Cursor(self.__pool, self.__dbname, self.__dsn)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\sql_db.py", line 267, in __init__
+    self._cnx = pool.borrow(dsn)
+  File "<decorator-gen-2>", line 2, in borrow
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\tools\func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\sql_db.py", line 668, in borrow
+    result = psycopg2.connect(
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\python\lib\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError
+2023-07-14 23:36:54,352 6464 INFO None odoo.sql_db: Connection to the database failed 
+2023-07-14 23:36:54,432 6464 INFO None werkzeug: 127.0.0.1 - - [14/Jul/2023 23:36:54] "POST /web/database/create HTTP/1.1" 200 - 0 0.000 0.338
+2023-07-14 23:39:12,268 6464 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-14 23:39:12,336 6464 INFO None odoo.service.db: Create database `odoo`. 
+2023-07-14 23:39:12,394 6464 INFO None odoo.sql_db: Connection to the database failed 
+2023-07-14 23:39:12,394 6464 ERROR None odoo.addons.web.controllers.database: Database creation error. 
+Traceback (most recent call last):
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\addons\web\controllers\database.py", line 81, in create
+    dispatch_rpc('db', 'create_database', [master_pwd, name, bool(post.get('demo')), lang, password, post['login'], country_code, post['phone']])
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\http.py", line 366, in dispatch_rpc
+    return dispatch(method, params)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\db.py", line 480, in dispatch
+    return g[exp_method_name](*params)
+  File "<decorator-gen-17>", line 2, in exp_create_database
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\db.py", line 43, in if_db_mgt_enabled
+    return method(self, *args, **kwargs)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\db.py", line 140, in exp_create_database
+    _create_empty_database(db_name)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\db.py", line 101, in _create_empty_database
+    with closing(db.cursor()) as cr:
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\sql_db.py", line 740, in cursor
+    return Cursor(self.__pool, self.__dbname, self.__dsn)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\sql_db.py", line 267, in __init__
+    self._cnx = pool.borrow(dsn)
+  File "<decorator-gen-2>", line 2, in borrow
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\tools\func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\sql_db.py", line 668, in borrow
+    result = psycopg2.connect(
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\python\lib\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError
+2023-07-14 23:39:12,467 6464 INFO None odoo.sql_db: Connection to the database failed 
+2023-07-14 23:39:12,582 6464 INFO None werkzeug: 127.0.0.1 - - [14/Jul/2023 23:39:12] "POST /web/database/create HTTP/1.1" 200 - 0 0.000 0.369
+2023-07-14 23:39:54,642 6464 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-14 23:39:54,737 6464 ERROR None odoo.addons.web.controllers.database: Database creation error. 
+Traceback (most recent call last):
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\addons\web\controllers\database.py", line 81, in create
+    dispatch_rpc('db', 'create_database', [master_pwd, name, bool(post.get('demo')), lang, password, post['login'], country_code, post['phone']])
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\http.py", line 366, in dispatch_rpc
+    return dispatch(method, params)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\db.py", line 479, in dispatch
+    check_super(passwd)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\db.py", line 53, in check_super
+    raise odoo.exceptions.AccessDenied()
+odoo.exceptions.AccessDenied: Access Denied
+2023-07-14 23:39:54,879 6464 INFO None odoo.sql_db: Connection to the database failed 
+2023-07-14 23:39:54,977 6464 INFO None werkzeug: 127.0.0.1 - - [14/Jul/2023 23:39:54] "POST /web/database/create HTTP/1.1" 200 - 0 0.000 0.394
+2023-07-14 23:40:16,173 6464 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-14 23:40:16,236 6464 ERROR None odoo.addons.web.controllers.database: Database creation error. 
+Traceback (most recent call last):
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\addons\web\controllers\database.py", line 81, in create
+    dispatch_rpc('db', 'create_database', [master_pwd, name, bool(post.get('demo')), lang, password, post['login'], country_code, post['phone']])
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\http.py", line 366, in dispatch_rpc
+    return dispatch(method, params)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\db.py", line 479, in dispatch
+    check_super(passwd)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\db.py", line 53, in check_super
+    raise odoo.exceptions.AccessDenied()
+odoo.exceptions.AccessDenied: Access Denied
+2023-07-14 23:40:16,364 6464 INFO None odoo.sql_db: Connection to the database failed 
+2023-07-14 23:40:16,472 6464 INFO None werkzeug: 127.0.0.1 - - [14/Jul/2023 23:40:16] "POST /web/database/create HTTP/1.1" 200 - 0 0.000 0.362
+2023-07-14 23:41:02,809 6464 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-14 23:41:02,872 6464 ERROR None odoo.addons.web.controllers.database: Database creation error. 
+Traceback (most recent call last):
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\addons\web\controllers\database.py", line 81, in create
+    dispatch_rpc('db', 'create_database', [master_pwd, name, bool(post.get('demo')), lang, password, post['login'], country_code, post['phone']])
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\http.py", line 366, in dispatch_rpc
+    return dispatch(method, params)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\db.py", line 479, in dispatch
+    check_super(passwd)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\db.py", line 53, in check_super
+    raise odoo.exceptions.AccessDenied()
+odoo.exceptions.AccessDenied: Access Denied
+2023-07-14 23:41:02,998 6464 INFO None odoo.sql_db: Connection to the database failed 
+2023-07-14 23:41:03,140 6464 INFO None werkzeug: 127.0.0.1 - - [14/Jul/2023 23:41:03] "POST /web/database/create HTTP/1.1" 200 - 0 0.000 0.394
+2023-07-14 23:42:08,120 6464 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-14 23:42:08,185 6464 ERROR None odoo.addons.web.controllers.database: Database creation error. 
+Traceback (most recent call last):
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\addons\web\controllers\database.py", line 81, in create
+    dispatch_rpc('db', 'create_database', [master_pwd, name, bool(post.get('demo')), lang, password, post['login'], country_code, post['phone']])
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\http.py", line 366, in dispatch_rpc
+    return dispatch(method, params)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\db.py", line 479, in dispatch
+    check_super(passwd)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\db.py", line 53, in check_super
+    raise odoo.exceptions.AccessDenied()
+odoo.exceptions.AccessDenied: Access Denied
+2023-07-14 23:42:08,312 6464 INFO None odoo.sql_db: Connection to the database failed 
+2023-07-14 23:42:08,390 6464 INFO None werkzeug: 127.0.0.1 - - [14/Jul/2023 23:42:08] "POST /web/database/create HTTP/1.1" 200 - 0 0.000 0.332
+2023-07-14 23:42:50,152 6464 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-14 23:42:50,224 6464 ERROR None odoo.addons.web.controllers.database: Database creation error. 
+Traceback (most recent call last):
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\addons\web\controllers\database.py", line 81, in create
+    dispatch_rpc('db', 'create_database', [master_pwd, name, bool(post.get('demo')), lang, password, post['login'], country_code, post['phone']])
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\http.py", line 366, in dispatch_rpc
+    return dispatch(method, params)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\db.py", line 479, in dispatch
+    check_super(passwd)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\db.py", line 53, in check_super
+    raise odoo.exceptions.AccessDenied()
+odoo.exceptions.AccessDenied: Access Denied
+2023-07-14 23:42:50,377 6464 INFO None odoo.sql_db: Connection to the database failed 
+2023-07-14 23:42:50,490 6464 INFO None werkzeug: 127.0.0.1 - - [14/Jul/2023 23:42:50] "POST /web/database/create HTTP/1.1" 200 - 0 0.000 0.393
+2023-07-14 23:44:47,458 6464 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-14 23:44:47,515 6464 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-14 23:44:47,515 6464 INFO ? werkzeug: 127.0.0.1 - - [14/Jul/2023 23:44:47] "GET /web HTTP/1.1" 303 - 0 0.000 0.121
+2023-07-14 23:44:47,571 6464 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-14 23:44:47,652 6464 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-14 23:44:47,766 6464 INFO ? werkzeug: 127.0.0.1 - - [14/Jul/2023 23:44:47] "GET /web/database/selector HTTP/1.1" 200 - 0 0.000 0.243
+2023-07-14 23:44:53,927 6464 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-14 23:44:54,015 6464 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-14 23:44:54,111 6464 INFO ? werkzeug: 127.0.0.1 - - [14/Jul/2023 23:44:54] "GET /web/database/selector HTTP/1.1" 200 - 0 0.000 0.239
+2023-07-14 23:45:19,779 6464 INFO ? odoo.sql_db: Connection to the database failed 
+2023-07-14 23:45:19,835 6464 ERROR None odoo.addons.web.controllers.database: Database creation error. 
+Traceback (most recent call last):
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\addons\web\controllers\database.py", line 81, in create
+    dispatch_rpc('db', 'create_database', [master_pwd, name, bool(post.get('demo')), lang, password, post['login'], country_code, post['phone']])
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\http.py", line 366, in dispatch_rpc
+    return dispatch(method, params)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\db.py", line 479, in dispatch
+    check_super(passwd)
+  File "C:\Users\Juanleon\Desktop\Juan Carlos\server\odoo\service\db.py", line 53, in check_super
+    raise odoo.exceptions.AccessDenied()
+odoo.exceptions.AccessDenied: Access Denied
+2023-07-14 23:45:19,972 6464 INFO None odoo.sql_db: Connection to the database failed 
+2023-07-14 23:45:20,072 6464 INFO None werkzeug: 127.0.0.1 - - [14/Jul/2023 23:45:20] "POST /web/database/create HTTP/1.1" 200 - 0 0.000 0.350
+2023-07-14 23:50:05,340 6464 INFO ? odoo.service.server: Initiating shutdown 
+2023-07-14 23:50:05,340 6464 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-07-14 23:50:05,600 6464 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 0 connections  
